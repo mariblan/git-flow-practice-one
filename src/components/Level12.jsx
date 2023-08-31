@@ -1,8 +1,8 @@
 const Level12 = () => {
   return (
-    <>
-      <h4>Create a Pull request(PR)</h4>
-      <h5>(Groups)</h5>
+    <div className='level'>
+      <h4>Pull requests</h4>
+      <h5>Create a PR (Groups)</h5>
       <p>
         As the main branch is protected from unwanted pushes, the only way to
         actually change the code in it is through a pull request. Let’s learn
@@ -69,7 +69,7 @@ const Level12 = () => {
         </li>
         <li>Click on “Create pull request”.</li>
       </ul>
-    </>
+    </div>
   );
 };
 

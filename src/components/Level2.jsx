@@ -1,10 +1,11 @@
 const Level2 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Pushing code into a remote</h4>
+      <h5>(Individual)</h5>
       <p>
         In the activity before, an error occured when trying to push the code to
-        the Github repository. Let's see how to solve it:
+        the Github repository. Let´s see how to solve it:
       </p>
       <ul>
         <li>
@@ -41,7 +42,7 @@ const Level2 = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 export default Level2;

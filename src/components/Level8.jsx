@@ -1,9 +1,10 @@
 const Level8 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Protecting main</h4>
       <h5>
         Why not merging and pushing to main without a pull request? Part 1
+        (Individual)
       </h5>
       <p>
         In the previous part of this activity, we have seen how writing code in
@@ -65,7 +66,7 @@ const Level8 = () => {
       </p>
       <p>Actually, let´s test that.</p>
       <p>From now on let´s work in groups!</p>
-    </>
+    </div>
   );
 };
 

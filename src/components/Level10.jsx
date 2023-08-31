@@ -5,7 +5,7 @@ const Level10 = () => {
     setToggleDropdown(toggleDropdown === 'none' ? 'block' : 'none');
   };
   return (
-    <>
+    <div className='level'>
       <h4>Protecting main</h4>
       <h5>
         Why not merging and pushing to main without a pull request? Part 2
@@ -72,7 +72,7 @@ const Level10 = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

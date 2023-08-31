@@ -1,6 +1,6 @@
 const Level16 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>
         Merging into <b>dev</b> and <b>main</b>
       </h4>
@@ -25,7 +25,7 @@ const Level16 = () => {
         </li>
         .
       </ul>
-    </>
+    </div>
   );
 };
 export default Level16;

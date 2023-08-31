@@ -1,8 +1,8 @@
 const Level13 = () => {
   return (
-    <>
-      <h4>Reviewing and approving a Pull request </h4>
-      <h5>Part 1(Groups)</h5>
+    <div className='level'>
+      <h4>Pull requests</h4>
+      <h5>Reviewing and approving a PR Part 1 (Groups)</h5>
       <p>
         All the new pull requests from the team have been created, and when
         going inside each one, it can be seen that the merge is blocked because
@@ -54,7 +54,7 @@ const Level13 = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

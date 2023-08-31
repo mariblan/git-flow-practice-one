@@ -1,7 +1,8 @@
 const Level5 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Pull code from the remote to a local branch</h4>
+      <h5>(Individual)</h5>
       <p>
         Currently there are three branches in your remote repository: “main”,
         “trial” and “trial2”. Let’s pull the code from the remote “trial2”
@@ -17,7 +18,7 @@ const Level5 = () => {
           <i>What has just happened? Why?</i>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

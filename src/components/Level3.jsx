@@ -1,7 +1,8 @@
 const Level3 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Create branches</h4>
+      <h5>(Individual)</h5>
       <p>
         For the git and github flow to work, it is fundamental to know how to
         create, push, pull and merge branches. Let's first see how to create new
@@ -33,7 +34,7 @@ const Level3 = () => {
           title? Why?
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

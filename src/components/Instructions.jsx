@@ -72,8 +72,8 @@ const Instructions = () => {
           developers, and therefore here we are going to practice the essential
           git and github commands and the flow of working with them.
         </p>
-        <b>Your goal</b>: Create and nest React Components to display your UI.
-        {/* <ExampleOutcome /> */}
+        <b>Your goal</b>: Understand the git & Github flow when working on a
+        project.
       </div>
       <h3>
         Level {activeComponent} / {Object.keys(componentMap).length}
@@ -100,41 +100,43 @@ const Instructions = () => {
           className='link'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://react.dev/learn/describing-the-ui'
+          href='https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html'
         >
-          Describing the UI
+          Git basic commands
+        </a>
+
+        <a
+          className='link'
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository'
+        >
+          Creating a repository in Github
         </a>
         <a
           className='link'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://react.dev/learn/your-first-component'
+          href='https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository'
         >
-          React Components
+          Cloning a repository from Github
         </a>
         <a
           className='link'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://react.dev/learn/importing-and-exporting-components'
+          href='https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule'
         >
-          Modules: Importing and Exporting Components
+          Branch protection rules in Github
         </a>
+
         <a
           className='link'
           target='_blank'
           rel='noopener noreferrer'
-          href='https://react.dev/learn/writing-markup-with-jsx'
+          href='https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request'
         >
-          Writing Markup with JSX
-        </a>
-        <a
-          className='link'
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://react.dev/learn/javascript-in-jsx-with-curly-braces'
-        >
-          JavaScript in JSX with Curly Braces
+          Creating pull requests in Github
         </a>
       </div>
     </div>

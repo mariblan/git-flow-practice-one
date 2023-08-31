@@ -1,7 +1,8 @@
 const Level4 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Push branches to the remote</h4>
+      <h5>(Individual)</h5>
       <p>
         The previous activity show us how to create new branches and be careful
         about not taking our code from one branch to another. Now let’s add
@@ -47,7 +48,7 @@ const Level4 = () => {
           </li>
         </ul>
       </ul>
-    </>
+    </div>
   );
 };
 

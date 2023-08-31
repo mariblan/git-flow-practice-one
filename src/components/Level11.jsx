@@ -1,6 +1,6 @@
 const Level11 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Protecting main </h4>
       <h5>Github protection rules (Groups)</h5>
       <p>
@@ -68,7 +68,7 @@ const Level11 = () => {
           named <b>dev</b> that will be created in the next level.
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

@@ -1,7 +1,13 @@
 const Level1 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Create a repository and connect it to a remote</h4>
+      <h5>(Individual)</h5>
+      <p>
+        The first thing to be able to work with git and github is to create the
+        set up. So, let´s create te repositories and the conection between them
+        so we can start practicing.
+      </p>
       <ul>
         <li>
           Create a new local repository in your computer and open it with VS
@@ -25,7 +31,7 @@ const Level1 = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

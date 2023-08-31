@@ -5,9 +5,9 @@ const Level7 = () => {
     setToggleDropdown(toggleDropdown === 'none' ? 'block' : 'none');
   };
   return (
-    <>
+    <div className='level'>
       <h4>Protecting main</h4>
-      <h5>Why not working in main?</h5>
+      <h5>Why not working in main? (Individual)</h5>
       <p>
         In the previous activities, we have seen how the flow of creating,
         pushing and pulling branches and storing changes in those branches
@@ -99,7 +99,7 @@ const Level7 = () => {
           </i>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

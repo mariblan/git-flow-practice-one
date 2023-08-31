@@ -1,7 +1,8 @@
 const Level9 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Cloning a repository</h4>
+      <h5>(Groups)</h5>
       <p>
         Now we want to repeat the previous activity but this time working in
         groups. For that, we will need to share our repositories with our
@@ -38,7 +39,7 @@ const Level9 = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

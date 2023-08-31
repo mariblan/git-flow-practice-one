@@ -1,8 +1,8 @@
 const Level14 = () => {
   return (
-    <>
-      <h4>Reviewing and approving a Pull request</h4>
-      <h5>Part 2(Groups)</h5>
+    <div className='level'>
+      <h4>Pull requests</h4>
+      <h5>Reviewing and approving a PR Part 2 (Groups)</h5>
       <p>
         Now that one of the features have been merge, all of you can check the
         other PRs in Github. They have a notification that the branch of the PR
@@ -35,7 +35,7 @@ const Level14 = () => {
           next level.
         </b>
       </p>
-    </>
+    </div>
   );
 };
 

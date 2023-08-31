@@ -1,7 +1,8 @@
 const Level6 = () => {
   return (
-    <>
+    <div className='level'>
       <h4>Solving merge conflicts</h4>
+      <h5>(Individual)</h5>
       <p>
         The “trial” branchs is currently under a merge conflict because of
         pulling the code from “trial2”. Let’s solve it:
@@ -38,7 +39,7 @@ const Level6 = () => {
         </li>
         <li>Push the “trial” branch changes to the remote.</li>
       </ul>
-    </>
+    </div>
   );
 };
 

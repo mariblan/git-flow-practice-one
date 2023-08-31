@@ -1,8 +1,8 @@
 const Level15 = () => {
   return (
-    <>
-      <h4>Reviewing and approving a Pull request</h4>
-      <h5>Part 3(Groups)</h5>
+    <div className='level'>
+      <h4>Pull requests</h4>
+      <h5>Reviewing and approving a PR Part 3 (Groups)</h5>
       <p>
         Now that we know how to fix this little issues when a branch is merge,
         let´s do it again with the other branches. However, this time, we are
@@ -50,7 +50,7 @@ const Level15 = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
