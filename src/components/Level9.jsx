@@ -27,13 +27,12 @@ const Level9 = () => {
               the group and each person should create a new branch in it.
               <ul>
                 <li>
-                  Name the branch <b>feature/h1yourname</b>.
+                  Name the branch <b>feature/h1</b>.
                 </li>
                 <li>
                   Update the h1 to say <i>This is yourname´s branch.</i>
                 </li>
                 <li>Stage and commit the changes.</li>
-                <li>Push your branch to the repo.</li>
               </ul>
             </li>
           </ul>
